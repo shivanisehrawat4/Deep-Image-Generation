@@ -37,7 +37,17 @@ The project includes various generated images:
 
 3. View the Generated Images: Explore the generated images, both from text prompts and the enhanced versions, as well as similar images, directly in the project directory.
 
-**Requirements:**
+**Requirements and Dependencies:**
 
-Python 3.x
-Dependencies: CLIP, UNet, Diffusers, and other libraries as specified in the scripts.
+To use this project, ensure you have the following Python libraries and dependencies installed:
+
+- [diffusers](https://pypi.org/project/diffusers/): A library for diffusion models.
+- [transformers](https://pypi.org/project/transformers/): Hugging Face Transformers library for natural language understanding.
+- [accelerate](https://pypi.org/project/accelerate/): A library for distributed computing and training machine learning models.
+- [xformers](https://pypi.org/project/xformers/): XFormers library, version 0.0.16rc425, for deep learning tasks.
+
+You can install these dependencies using pip with the following command:
+
+```bash
+pip install diffusers transformers accelerate xformers==0.0.16rc425
+
