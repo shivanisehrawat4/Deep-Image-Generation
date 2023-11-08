@@ -1,6 +1,3 @@
-# Install necessary packages
-!pip install diffusers transformers accelerate xformers==0.0.16rc425
-
 # Import necessary libraries
 import torch
 from torch import autocast
